@@ -1,0 +1,28 @@
+.bravo-reviews{
+    .avatar-img{
+        max-width: 85px;
+    }
+    .sfeedbacks_form .sspd_review .fa.selected,
+    .sfeedbacks_form .sspd_review .fa.hovered{
+        color: #5191fa;
+    }
+}
+.service-review{
+    .list-star{
+        position: relative;
+        ul{
+            list-style: none;
+            display: flex;
+            li{
+                &:not(:last-child){
+                    margin-right: 5px;
+                }
+            }
+        }
+        .booking-item-rating-stars-active{
+            position: absolute;
+            top: 0;
+            overflow: hidden;
+        }
+    }
+}

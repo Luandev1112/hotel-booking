@@ -1,0 +1,154 @@
+@import "helper";
+@import "form";
+@import "login_register";
+@import "custom_daterangepicker";
+@import "adminbar";
+@import "inbox";
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+.container {
+    .container{
+        padding: 0px
+    }
+}
+
+.service-wishlist{
+    cursor: pointer !important;
+}
+.service-wishlist:hover span,
+.service-wishlist.loading span,
+.service-wishlist:hover i,
+.service-wishlist.loading i{
+    color: #ff9290 !important;
+}
+
+.service-wishlist.active span,
+.service-wishlist.active i
+{
+    color: #ff0000 !important;
+}
+.text-decoration-line-through{
+    text-decoration: line-through;
+}
+
+.sale-price-color{
+
+}
+.ribbon {
+    line-height: 1.2em;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgb(0 0 0 / 15%);
+    letter-spacing: -2px;
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    background: linear-gradient(to bottom, #999999 0%, #cccccc 100%);
+    color: white;
+    padding-top: 0.5rem;
+    position: relative;
+    -webkit-filter: drop-shadow(0 0.2rem 0.2em rgba(0, 0, 0, 0.5));
+    transform: translate3d(0, 0, 0);
+}
+.ribbon:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-right: 1.5rem solid transparent;
+    border-left: 1.5rem solid transparent;
+    border-top: 0.7rem solid #CCCCCC;
+    position: absolute;
+    top: 3rem;
+    left: 0;
+}
+.ribbon.ribbon--red {
+    background: linear-gradient(to bottom, #d3362d 0%, #e57368 100%);
+}
+.ribbon.ribbon--red:after {
+    border-top: 0.7rem solid #E57368;
+}
+.ribbon.ribbon--orange {
+    background: linear-gradient(to bottom, #e7711b 0%, #f7981d 100%);
+}
+.ribbon.ribbon--orange:after {
+    border-top: 0.7rem solid #F7981D;
+}
+.ribbon.ribbon--yellow {
+    background: linear-gradient(to bottom, #f1ca3a 0%, #f6eb3b 100%);
+}
+.ribbon.ribbon--yellow:after {
+    border-top: 0.7rem solid #F6EB3B;
+}
+.ribbon.ribbon--green {
+    background: linear-gradient(to bottom, #5f9654 0%, #65b045 100%);
+}
+.ribbon.ribbon--green:after {
+    border-top: 0.7rem solid #65B045;
+}
+.ribbon.ribbon--blue {
+    background: linear-gradient(to bottom, #1c91c0 0%, #11a9cc 100%);
+}
+.ribbon.ribbon--blue:after {
+    border-top: 0.7rem solid #11A9CC;
+}
+.ribbon.ribbon--purple {
+    background: linear-gradient(to bottom, #5c3292 0%, #7e3794 100%);
+}
+.ribbon.ribbon--purple:after {
+    border-top: 0.7rem solid #7E3794;
+}
+
+.frontend-page:not(.header_transparent){
+    .bravo-form-search-all{
+        .container{
+            @media (min-width: 1023px){
+                padding: 4.5rem!important;
+            }
+        }
+    }
+}
+
+.bravo_wrap{
+    .bravo_search_flight,
+    .bravo_search_hotel,
+    .bravo_search_tour,
+    .bravo_search_space,
+    .bravo_search_car,
+    .bravo_search_boat,
+    .bravo_search_event{
+        #sidebar{
+            margin-bottom: 30px;
+            @media (min-width: 992px){
+                display: block;
+            }
+        }
+    }
+    .bravo_footer{
+        .footer-select{
+            .currency-select{
+                padding: 0.9rem 1rem!important;
+                border: 2px solid #ebf0f7!important;
+                >div{
+                    padding: 0!important;
+                    .dropdown-nav-link{
+                        font-weight: 500;
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+    .travel-slick-carousel{
+        .slick-arrow{
+            &:hover{
+                &:before{
+                    color: white;
+                }
+            }
+        }
+    }
+}

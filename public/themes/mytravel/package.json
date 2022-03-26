@@ -1,0 +1,12 @@
+{
+    "private": true,
+    "scripts": {
+        "frontend-watch": "cross-env process.env.section=frontend mix watch",
+        "frontend-prod": "cross-env process.env.section=frontend mix --production"
+    },
+    "devDependencies": {
+        "laravel-mix": "^6.0.13"
+    },
+    "dependencies": {
+    }
+}
